@@ -27,7 +27,7 @@ const Home = () => {
       <Navbar />
       <div className="home">
         <h2 ref={titleRef}></h2>
-        <div className="buttons">
+        <div className="buttons1">
           <Link to="/patientlogin" className='home-button' style={{ marginRight: '1rem' }}>Patient</Link>
           <Link to="/doctorlogin" className='home-button' style={{ marginLeft: '1rem' }}>Doctor</Link>
         </div>
